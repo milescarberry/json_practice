@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+flask = "*"
+black = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+stripe = "*"
+python-dotenv = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+scipy = "*"
+pipwin = "*"
+vidstream = "*"
+beautifulsoup4 = "*"
+pandas-datareader = "*"
+mpl-finance = "*"
+twilio = "*"
+scrapy = "*"
+pytelegrambotapi = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
